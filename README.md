@@ -1,3 +1,3 @@
 # python-collection
 ## search_dictionaries
-Helpful tool to find keys across multiple dictionaries and handles nested dictionaries as well.
+Helpful tool to be able to find keys across multiple dictionaries. Can handle nested dictionaries.
