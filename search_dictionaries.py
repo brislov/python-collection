@@ -33,7 +33,7 @@ def search_dictionaries(*dictionaries):
                 times += 1
                 str_out += '\t{}{}: {}\n'.format(path[:-len(key)], key, value)
 
-        # Search time in ms
+        # Search time in µs
         elapsed_time = (time.clock() - start_time) * 10**6
 
         str_out += '\n\tFound = {}, Times = {} \tin {} ms\n'.format(found, times, elapsed_time)
